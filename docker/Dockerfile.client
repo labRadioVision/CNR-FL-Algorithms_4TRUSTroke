@@ -1,0 +1,32 @@
+# Sets the base image for the Docker container to Python 3.11-slim.
+FROM python:3.8.5
+
+# Sets an environment variable to ensure that Python doesn't buffer its standard output.
+ENV PYTHONUNBUFFERED=1
+
+# Updates the package lists for the APT package manager and install git.
+#RUN apt-get update
+#RUN apt-get upgrade -y
+# RUN apt-get install git -y
+#RUN apt-get clean
+#RUN rm -rf /var/lib/apt/lists/*
+
+WORKDIR /usr/app/src
+# Ugrades the pip package manager to the latest version, without caching the downloaded files.
+# RUN pip install --no-cache-dir --upgrade pip
+
+# Copies the contents the application code into the '/code' directory inside the container.
+COPY ./ /usr/app/src
+
+# Installs the Python packages from the '/code' directory using pip, without caching the downloaded files.
+RUN pip install --no-cache-dir -r requirements.txt
+# RUN python ./setup.py install
+
+# Removes the '/code' directory and its contents from the container to save space.
+# RUN rm -rf /code
+
+# Specifies the command that will be executed when the container starts.
+# CMD [ "python", "./learner_v2.py"]
+# ENTRYPOINT ["python","./learner_fordocker.py"]
+ENTRYPOINT ["python -m","./clients.client"]
+# ENTRYPOINT ["learner"]

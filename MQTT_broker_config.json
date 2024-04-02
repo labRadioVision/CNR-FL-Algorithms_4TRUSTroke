@@ -1,0 +1,7 @@
+{
+"broker_address": "test.mosquitto.org",
+    "MQTT_port" : 1883,
+    "TLS_" : {"ca_certs":""},
+    "AUTH_" : {"username": "","password": ""},
+    "Name_of_federation": "fed"
+}

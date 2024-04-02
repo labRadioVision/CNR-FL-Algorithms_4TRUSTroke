@@ -1,0 +1,7 @@
+{
+    "broker_address": "127.0.0.1",
+    "MQTT_port" : 1885,
+    "TLS_" : {"ca_certs":""},
+    "AUTH_" : {"username": "","password": ""},
+    "Name_of_federation": "fed"
+}
