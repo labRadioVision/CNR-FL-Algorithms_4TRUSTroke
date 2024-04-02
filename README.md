@@ -70,12 +70,16 @@ use 4 for stroke and fedxgboostllr
 
 ### Start clients
 ```python
-python -m clients.client -ID $i -alg $alg -run $run -target_loss $target_loss
+python -m clients.client -ID $i -alg $alg -run $run -target_loss $target_loss -target_acc $target_acc
 $alg, choices=['FedAvg', 'FedAdp', 'FedProx', 'Scaffold', 'FedDyn', 'FedDkw', 'FedNova', 'FedXGBllr'], default='FedXGBllr', help='FL algorithm'
-$ID, default=0, help="device/learner identifier", type=int (must be unique)
+$ID, default=0, help="device/learner identifier", type=int (must be unique for each deployed client)
 $run, default=0, help="run number", type=int
 $target_loss, default=0.001, help="sets the target loss to stop federation", type=float
 $target_acc, default=0.99, help="sets the target acc to stop federation", type=float
+Example (3 clients)
+python -m clients.client -ID 0 -alg 'Scaffold' -run 0
+python -m clients.client -ID 1 -alg 'Scaffold' -run 0
+python -m clients.client -ID 2 -alg 'Scaffold' -run 0
 ```
 
 ### Start PS server
