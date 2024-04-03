@@ -1,6 +1,7 @@
 ## TRUSTroke FL platform
 
-FL platform for TRUSTroke project and research.
+FL platform developed by CNR and POLIMI for selected FL algorithms performance verification. 
+Designed for Horizon EU TRUSTroke project and general research on FL.
 
 ### Installation
 
