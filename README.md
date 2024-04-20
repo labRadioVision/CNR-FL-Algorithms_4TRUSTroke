@@ -1,4 +1,4 @@
-## TRUSTroke FL platform
+## TRUSTroke FL algorithms
 
 FL platform developed by CNR, CERN and POLIMI for selected FL algorithms performance verification. 
 Designed for Horizon EU TRUSTroke project and general research on FL.
