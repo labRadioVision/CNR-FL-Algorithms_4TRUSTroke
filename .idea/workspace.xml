@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18a774de-c277-4e08-bf15-bb0fa17326c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CNR-FL-Algorithms_4TRUSTroke.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/FL_clients.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/classes_Datasets_data_generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_learner_fordocker1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_learner_fordocker2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/client_learner_fordocker3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/servers_server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_0/train/x_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_0/train/y_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_0/valid/x_valid.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_0/valid/y_valid.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_1/train/x_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_1/train/y_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_1/valid/x_valid.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_1/valid/y_valid.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_2/train/x_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_2/train/y_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_2/valid/x_valid.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/client_2/valid/y_valid.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/server/data_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/client0/models/model_0_run_0_final.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/client0/results/Device 0_run_0_FedXGBllr.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/client1/models/model_1_run_0_final.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/client1/results/Device 1_run_0_FedXGBllr.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/client2/models/model_2_run_0_final.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/client2/results/Device 2_run_0_FedXGBllr.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/fed/server/global_model_FedXGBllr_final.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Launcher_mosquitto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Launcher_mosquitto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Datasets/healthcare-dataset-stroke-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Datasets/healthcare-dataset-stroke-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Datasets/healthcare-dataset-stroke-data_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Datasets/healthcare-dataset-stroke-data_new.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Datasets/healthcare-dataset-stroke-prep.csv" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Datasets/healthcare-dataset-stroke-prep.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/params/simul_param.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/params/simul_param.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers/server.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fVScCGdQOO8CcWCvc5Y5CTtb7J" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Amministratore/Desktop/CNR-FL-Algorithms_4TRUSTroke/Launcher_mosquitto.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.Launcher_mosquitto">
+    <configuration name="Launcher_mosquitto" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CNR-FL-Algorithms_4TRUSTroke" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Amministratore\anaconda3\envs\CNRalg4TRUSTroke\python.exe" />
+      <option name="SDK_NAME" value="CNRalg4TRUSTroke" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Launcher_mosquitto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Compound.FL clients" />
+      <item itemvalue="Python.client.learner_fordocker1" />
+      <item itemvalue="Python.client.learner_fordocker2" />
+      <item itemvalue="Python.client.learner_fordocker3" />
+      <item itemvalue="Python.classes.Datasets.data_generator" />
+      <item itemvalue="Python.servers.server" />
+      <item itemvalue="Python.Launcher_mosquitto" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18a774de-c277-4e08-bf15-bb0fa17326c6" name="Changes" comment="" />
+      <created>1713884828547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713884828547</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
