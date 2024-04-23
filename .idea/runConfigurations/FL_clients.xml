@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="FL clients" type="CompoundRunConfigurationType">
+    <toRun name="client.learner_fordocker3" type="PythonConfigurationType" />
+    <toRun name="client.learner_fordocker2" type="PythonConfigurationType" />
+    <toRun name="client.learner_fordocker1" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
