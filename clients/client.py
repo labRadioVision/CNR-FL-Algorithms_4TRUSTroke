@@ -197,20 +197,25 @@ if __name__ == "__main__":
             mqttc.subscribe(PS_mqtt_topic, qos=mqtt_param.QOS)
             mqttc.message_callback_add(PS_mqtt_topic, handler.on_message_from_ps)
             print('Sending the model\n')
+            start_test = time.time()
             if mqtt_param.COMPRESSION_ENABLED:
                 mqttc.publish(device_topic, zlib.compress(pickle.dumps(detObj)), qos=mqtt_param.QOS, retain=True)
             else:
                 mqttc.publish(device_topic, pickle.dumps(detObj), qos=mqtt_param.QOS, retain=True)
-            #size_TX_model = sys.getsizeof(zlib.compress(pickle.dumps(detObj)))
-            #size_TX_model_uc = sys.getsizeof(pickle.dumps(detObj))
-            #print('mqtt payload size (uncompressed) in B: {}, KB: {}, MB: {}'.format(size_TX_model_uc, size_TX_model_uc / 10 ** 3, size_TX_model_uc / 10 ** 6))
-            #print('mqtt payload size (zlib compressed) in B: {}, KB: {}, MB: {}'.format(size_TX_model, size_TX_model / 10 ** 3, size_TX_model / 10 ** 6))
+
+            size_TX_model = sys.getsizeof(pickle.dumps(detObj))
+            print('mqtt payload size in B: {}, KB: {}, MB: {}'.format(size_TX_model, size_TX_model / 10 ** 3, size_TX_model / 10 ** 6))
+
             if fl_param.FEDERATION:
                 print("waiting for updates...")
                 mqttc.loop_forever(retry_first_connection=True)
             else:
                 mqttc.disconnect()
+            stop_test = time.time()
+            print('FL round tested in {:.2f} seconds\n'.format(stop_test - start_test))
+
         ##############################################################################################
+        
         print('Testing the received model')
         start_test = time.time()
         test_out = test_model(algorithm, data_handle)

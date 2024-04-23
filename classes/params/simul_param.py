@@ -6,7 +6,7 @@ TYPES_MODELS = {
     1: ['classes.models.VanillaMLP', 'VanillaMLP'],
     2: ['classes.models.Mobinet','Mobinet'],
     3: ['classes.models.VanillaLSTM', 'VanillaLSTM'],
-    4: ['classes.models.CNN_1D', 'CNN_1D']
+    4: ['classes.models.CNN_1D', 'CNN_1D'] # xgboost llr setup
 }  
 
 ALG_MODULE = 'classes.algorithms'

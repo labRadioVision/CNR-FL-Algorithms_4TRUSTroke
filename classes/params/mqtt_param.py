@@ -65,7 +65,7 @@ PORT = config['MQTT_port']   # 11883(linux cern)
 QOS = 2
 
 ### Compression
-COMPRESSION_ENABLED = False
+COMPRESSION_ENABLED = True
 
 if not TLS_USAGE:
     TLS_ = None       
