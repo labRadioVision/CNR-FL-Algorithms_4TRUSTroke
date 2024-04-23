@@ -5,7 +5,7 @@ Designed for Horizon EU TRUSTroke project and general research on FL.
 
 ### Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages (python >=3.7).
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages (python >=3.7, 3.8 preferable).
 
 ```bash
 pip install -r requirements.txt
