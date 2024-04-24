@@ -36,10 +36,10 @@ NOTE: stroke dataset can be shared upon request
 ### MQTT
 ```
 MQTT installation (example: see mosquitto release folder and install mosquitto server)
-For localhost configuration use:
-[text](MQTT_broker_config_local.json)
-For remote testing (test.mosquitto.org) - unencrypted and unauthenticated:
-[text](MQTT_broker_config.json)
+For simple localhost configuration use:
+MQTT_broker_config_local.json
+For remote testing (example: test.mosquitto.org) - unencrypted and unauthenticated:
+MQTT_broker_config.json
 ```
 ### MQTT BROKER
 ```
