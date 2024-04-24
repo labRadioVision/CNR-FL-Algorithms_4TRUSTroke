@@ -88,8 +88,8 @@ $run, default=0, help="run number", type=int
 ```
 
 ### Note
+The folder [output] contains the stored local and global models in h5 format
 ```
-folder output contains the stored local and global models in h5 format
 use sklearn.metrics for accuracy score evaluation
 ```
 ## License
