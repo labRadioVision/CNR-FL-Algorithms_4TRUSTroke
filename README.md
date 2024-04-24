@@ -43,6 +43,7 @@ MQTT_broker_config.json
 ```
 ### MQTT BROKER
 ```
+A simple broker (mosquitto) is provided for testing https://mosquitto.org/download/
 START BROKER: optionally use:
 python Launcher_mosquitto.py 
 ```
