@@ -52,6 +52,8 @@ python Launcher_mosquitto.py
 In the [classes/params/fl_param.py] file, set the number of clients in NUM_CLIENTS and the number of clients to be selected at each round by the Server in CLIENTS_SELECTED.
 In the [classes/params/fl_param.py] file, set the maximum number of FL rounds in NUM_ROUNDS (example 50 rounds)
 In the [classes/params/simul.param.py] set the ML model parameter in model_id MODEL = TYPES_MODELS[model_id] according to
+---
+
 ```python
 TYPES_MODELS = {
     0: ['classes.models.CNN', 'CNN'],
