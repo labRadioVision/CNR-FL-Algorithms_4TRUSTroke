@@ -94,7 +94,7 @@ $run, default=0, help="run number", type=int
 ```
 Example 
 ```python
-python -m servers.server -alg 'Scaffold' -run 0"
+python -m servers.server -alg 'Scaffold' -run 0
 ```
 ### Notes
 The folder [output] contains the stored local and global models in h5 format. Use sklearn.metrics for accuracy score evaluation
