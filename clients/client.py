@@ -130,7 +130,7 @@ if __name__ == "__main__":
     mqttc.message_callback_add(PS_mqtt_topic, handler.on_message_from_ps)
     mqttc.loop_forever()
     
-    if algorithm.name == 'FedXGBllr':
+    if algorithm.name == 'FedXGBllr': # specific to fedxgboostllr (for algorithm testing only)
         mqttc.connect(host=mqtt_param.ADDRESS, port=mqtt_param.PORT, keepalive=60)
         mqttc.subscribe(PS_mqtt_topic, qos=mqtt_param.QOS)
         mqttc.message_callback_add(PS_mqtt_topic, handler.on_message_from_ps)
@@ -150,8 +150,6 @@ if __name__ == "__main__":
         mqttc.subscribe(PS_mqtt_topic, qos=mqtt_param.QOS)
         mqttc.message_callback_add(PS_mqtt_topic, handler.on_message_from_ps)
         mqttc.loop_forever()
-        
-        print('THIS OVERHEAD IS FINALLY OVER, OMG, I CANT BELIEVE THAT')
         
         # convert data to trees outputs
         print('Converting data to trees outputs')
