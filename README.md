@@ -87,11 +87,9 @@ $alg, choices=['FedAvg', 'FedAdp', 'FedProx', 'Scaffold', 'FedDyn', 'FedDkw', 'F
 $run, default=0, help="run number", type=int
 ```
 
-### Note
-The folder [output] contains the stored local and global models in h5 format
-```
-use sklearn.metrics for accuracy score evaluation
-```
+### Notes
+The folder [output] contains the stored local and global models in h5 format. Use sklearn.metrics for accuracy score evaluation
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
