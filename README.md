@@ -21,8 +21,8 @@ conda env create -f environment_windows.yml
 
 ### TEST algorithms
 ```
-MASTER BRANCH - SUPPORTED algorithms=("FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova")
-FEDXGBOOST BRANCH - SUPPORTED algorithms=("FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova" "FedXGBllr")
+Currently SUPPORTED algorithms=("FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova" "FedXGBllr")
+Note: all algorithm implementations are in [/classes/algorithms/]
 ```
 ### Federated data: create a federated dataset and distribute to clients 
 ```python
@@ -51,7 +51,7 @@ python Launcher_mosquitto.py
 ```
 In the [classes/params/fl_param.py] file, set the number of clients in NUM_CLIENTS and the number of clients to be selected at each round by the Server in CLIENTS_SELECTED.
 In the [classes/params/fl_param.py] file, set the maximum number of FL rounds in NUM_ROUNDS (example 50 rounds)
-In the [classes/params/simul.param.py] set the ML model parameter in model_id MODEL = TYPES_MODELS[model_id] according to
+In the [classes/params/simul.param.py] set the ML model parameter in model_id MODEL = TYPES_MODELS[model_id] according to the list below (further models can be added)
 ```
 
 ```python
@@ -68,7 +68,6 @@ use 0 for mnist and neural network models
 use 1 for stroke and neural network models
 use 4 for stroke and fedxgboostllr
 ```
-Note: all algorithm implementations are in [/classes/algorithms/]
 
 ### Start clients
 ```python
