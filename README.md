@@ -11,14 +11,6 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the req
 pip install -r requirements.txt
 ```
 
-### Conda Environment
-Install the conda environment selecting the correct OS from the folder Environments):
-
-```
-conda env create -f environment_windows.yml
-```
-
-
 ### TEST algorithms
 Algorithms can be tested using tabular data (stroke public dataset https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) and image dataset MNIST. Currently supported algorithms:
 ```
