@@ -44,7 +44,7 @@ For remote testing (example: test.mosquitto.org) - unencrypted and unauthenticat
 MQTT_broker_config.json
 ```
 
-### Clients, SIMPLE STARTUP
+### Clients, example of a simple startup
 ```
 In the [classes/params/fl_param.py] file, set the number of clients in NUM_CLIENTS and the number of clients to be selected at each round by the Server in CLIENTS_SELECTED.
 In the [classes/params/fl_param.py] file, set the maximum number of FL rounds in NUM_ROUNDS (example 50 rounds)
