@@ -89,7 +89,10 @@ python -m servers.server -alg $alg -run $run"
 $alg, choices=['FedAvg', 'FedAdp', 'FedProx', 'Scaffold', 'FedDyn', 'FedDkw', 'FedNova', 'FedXGBllr'], default='FedXGBllr', help='FL algorithm'
 $run, default=0, help="run number", type=int
 ```
-
+Example 
+```python
+python -m servers.server -alg 'Scaffold' -run 0"
+```
 ### Notes
 The folder [output] contains the stored local and global models in h5 format. Use sklearn.metrics for accuracy score evaluation
 
