@@ -89,6 +89,9 @@ $alg, choices=['FedAvg', 'FedAdp', 'FedProx', 'Scaffold', 'FedDyn', 'FedDkw', 'F
 $run, default=0, help="run number", type=int
 ```
 
+### Note
+use sklearn.metrics for accuracy score
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
