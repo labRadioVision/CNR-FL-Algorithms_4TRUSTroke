@@ -59,8 +59,9 @@ TYPES_MODELS = {
     3: ['classes.models.VanillaLSTM', 'VanillaLSTM'],
     4: ['classes.models.CNN_1D', 'CNN_1D']
 }
-
-Example: 
+```
+Example:
+```
 use 0 for mnist and neural network models
 use 1 for stroke and neural network models
 use 4 for stroke and fedxgboostllr
@@ -74,7 +75,9 @@ $ID, default=0, help="device/learner identifier", type=int (must be unique for e
 $run, default=0, help="run number", type=int
 $target_loss, default=0.001, help="sets the target loss to stop federation", type=float
 $target_acc, default=0.99, help="sets the target acc to stop federation", type=float
+```
 Example (3 clients)
+```python
 python -m clients.client -ID 0 -alg 'Scaffold' -run 0
 python -m clients.client -ID 1 -alg 'Scaffold' -run 0
 python -m clients.client -ID 2 -alg 'Scaffold' -run 0
