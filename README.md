@@ -24,8 +24,9 @@ Algorithms can be tested using tabular data (stroke public dataset https://www.k
 ```
 Tabular data: "FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova" "FedXGBllr"
 MNIST data: "FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova"
-All algorithm implementations are in [/classes/algorithms/]
 ```
+All algorithm implementations are in [/classes/algorithms/]
+
 ### Federated data: create a federated dataset and distribute to clients 
 ```python
 python -m classes.Datasets.data_generator -data $data -samples $samples -data $data -niid $n_iid -alpha 0.1
