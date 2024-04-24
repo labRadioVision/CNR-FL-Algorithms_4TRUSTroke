@@ -35,17 +35,13 @@ NOTE: stroke dataset can be shared upon request
 
 ### MQTT
 ```
-MQTT installation (example: see mosquitto release folder and install mosquitto server)
+The FL system runs on a MQTT platform. Simple mosquitto installation can be found in https://mosquitto.org/download/. Installation file can be provided upon request.
+START BROKER (optionally) use:
+python Launcher_mosquitto.py 
 For simple localhost configuration use:
 MQTT_broker_config_local.json
 For remote testing (example: test.mosquitto.org) - unencrypted and unauthenticated:
 MQTT_broker_config.json
-```
-### MQTT BROKER
-```
-A simple broker (mosquitto) is provided for testing https://mosquitto.org/download/
-START BROKER: optionally use:
-python Launcher_mosquitto.py 
 ```
 
 ### Clients, SIMPLE STARTUP
