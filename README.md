@@ -20,10 +20,11 @@ conda env create -f environment_windows.yml
 
 
 ### TEST algorithms
+Algorithms can be tested using tabular data (stroke public dataset https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) and image dataset MNIST. Currently supported algorithms:
 ```
-Stroke data: currently supported algorithms=("FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova" "FedXGBllr")
-MNIST data: currently supported algorithms=("FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova")
-Note: all algorithm implementations are in [/classes/algorithms/]
+Tabular data: "FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova" "FedXGBllr"
+MNIST data: "FedAvg" "FedAdp" "FedProx" "Scaffold" "FedDyn" "FedDkw" "FedNova"
+All algorithm implementations are in [/classes/algorithms/]
 ```
 ### Federated data: create a federated dataset and distribute to clients 
 ```python
