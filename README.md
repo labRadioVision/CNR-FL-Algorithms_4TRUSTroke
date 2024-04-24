@@ -1,6 +1,4 @@
-## TRUSTroke FL algorithms
-
-FL system designed for selected FL algorithms performance verification and general research on FL and advanced tools.
+FL system designed for research and algorithms performance comparison.
 Funded by Horizon EU project TRUSTroke in the call HORIZON-HLTH-2022-STAYHLTH-01-two-stage under GA No. 101080564.
 
 ### Installation
