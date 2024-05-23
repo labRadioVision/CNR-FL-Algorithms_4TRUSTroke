@@ -37,3 +37,8 @@ def save_results(model, metrics, id, run, alg_name, results_path, models_path):
     model.save(models_path+f'/model_{id}_run_{run}_final.h5')
     file_name = results_path + f"/Device {id}_run_{run}_{alg_name}.mat"
     sio.savemat(file_name, metrics)
+
+def save_monitor_parameters(monitor_metrics, id, run, alg_name, results_path):
+    #model.save(models_path, include_optimizer=False, save_format='h5')
+    file_name = results_path + f"/Monitor Device {id}_run_{run}_{alg_name}.mat"
+    sio.savemat(file_name, monitor_metrics)

@@ -22,8 +22,8 @@ class CNN:
     # Model definition
     def return_model(self):
 
-        start_f = 8
-        depth = 2 # 5
+        start_f = 16 # 8
+        depth = 4 # 5
         model = tf.keras.Sequential()
 
         # Features extraction
@@ -50,4 +50,5 @@ class CNN:
         model.add(tf.keras.layers.Dense(units=16))  # 512
         model.add(tf.keras.layers.LeakyReLU())
         model.add(tf.keras.layers.Dense(units=self.output_shape, activation='softmax'))
+        model.summary()
         return model
