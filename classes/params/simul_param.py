@@ -26,7 +26,7 @@ TYPES_OPTIMIZERS = {
 architecture_id = 0                         
 ARCHITECTURE = TYPES_ARCHITECTURE[architecture_id]                    # choose 0, 1,  2 or 3
 
-model_id = 4
+model_id = 1
 MODEL = TYPES_MODELS[model_id]                                 # choose 0, 9  | ex ['Classes.Models.CNN', 'CNN']
 MODULE_MODEL_NAME = MODEL[0]                                                    # ex 'Classes.Models.CNN'
 MODEL_NAME = MODEL[1]                                                           # ex 'CNN'
@@ -40,7 +40,8 @@ elif CHOSEN_OPTIMIZER[0] == 'ADAM': # Note: Might cause problems for some algori
 LR = 1e-2  # Learning rate
 
 LOSS = tf.keras.losses.BinaryCrossentropy()#CategoricalCrossentropy()            # Loss to be minimized
-METRICS = [#tf.keras.metrics.CategoricalAccuracy(),
+# LOSS = tf.keras.losses.CategoricalCrossentropy()
+METRICS = [ # tf.keras.metrics.CategoricalAccuracy(),
             tf.keras.metrics.BinaryAccuracy(),
             tf.keras.metrics.Precision(),
             tf.keras.metrics.Recall(),

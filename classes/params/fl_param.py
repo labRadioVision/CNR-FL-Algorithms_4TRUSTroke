@@ -1,7 +1,7 @@
 ############ NUMBER OF CLIENTS AND SELECTED CLIENTS (BY THE PS) PER ROUND
 NUM_CLIENTS = 3 # for now controlled in launcher
 # Clients at each Federated_round
-CLIENTS_SELECTED = 2
+CLIENTS_SELECTED = 3
 assert CLIENTS_SELECTED <= NUM_CLIENTS
 
 ######### configuration parameters
